@@ -1,5 +1,3 @@
-:
-
 📝 Feedback Form Project :
 
 Overview :
@@ -48,3 +46,19 @@ JavaScript (JS) – Form validation, dynamic character counter, and submission h
 
 ~ Upgrade to modern UI designs like floating labels or glassmorphism.
 
+
+🔹 Author
+
+Mohamed Adhnan – Aspiring Frontend Developer
+
+Completed this project through Error Makes Academy
+
+
+📌 How to View You can view the website directly here 👉 [ ]
+
+Thank you for visiting my portfolio website.
+
+
+🏷️ Hashtags for GitHub / LinkedIn
+
+#HTML #CSS #JavaScript #WebDevelopment #StudentProject #FrontendDevelopment #LearningJourney #BeginnersProject #CodingJourney #WeeklyTasks #JSFormValidation #DynamicTable #PoppinsFont #ResponsiveDesign #InstituteName
