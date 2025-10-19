@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ff758c, #ff7eb3, #ffb347, #ffcc33);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+.container {
+  background: rgba(255, 255, 255, 0.95); /* Slightly transparent to match gradient */
+  padding: 35px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  max-width: 95%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+
+h2 {
+  text-align: center;
+  color: #FF4B6E;
+  margin-bottom: 25px;
+  font-size: 26px;
+}
+
+
+label {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px 14px; /* left & right padding for spacing inside */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 15px;
+  resize: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #ff4b6e;
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 75, 110, 0.4);
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff4b6e;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #d63e5c;
+}
+
+
+#charCount {
+  text-align: right;
+  font-size: 13px;
+  color: #666;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 25px 20px;
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  input, textarea, button {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 20px 15px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  input, textarea, button {
+    font-size: 13px;
+    padding: 8px 10px;
+  }
+}
